@@ -7,4 +7,7 @@ public class Pedidos {
     public void pedidoRealizado() {
         System.out.println("Pedido realizado con exito");
     }
+    public void pedidoFallido() {
+        System.out.println("Error em el Pedido. Revise sus datos");
+    }
 }
