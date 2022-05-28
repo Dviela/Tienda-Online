@@ -7,4 +7,8 @@ public class Producto {
     private String nombre;
     private LocalDate fechaCreacion;
     private String descripcion;
+
+    public void insertarProducto() {
+        System.out.println("Producto añadido");
+    }
 }
